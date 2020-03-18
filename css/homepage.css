@@ -47,7 +47,7 @@ a.nav-link {
     position: relative;
 }
 
-a.nav-link:hover::after, .active::after{
+a.nav-link:hover::after, li.active::after, .dropdown-item:hover:after{
 	content: "";
 	position: absolute;
 	width: 28px;
@@ -78,6 +78,38 @@ a.nav-link.contact-link:hover {
 	border: 1px solid transparent;
 }
 
+.navbar-nav .dropdown-menu {
+	border-radius: 10px;
+    box-shadow: 0px 2px 13px #0000001F;
+    border: none;
+    min-width: 146px;
+    max-width: 146px;
+}
+
+.dropdown-item {
+    padding: 7px 19px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-item:hover {
+	background-color: transparent;
+}
+
+.dropdown-item:hover:after{
+	margin-left: 20px;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown a.nav-link:hover::after {
+	display: none;
+}
 .home-banner-100 {
 	margin: 90px 0;
 	text-align: center;
@@ -118,14 +150,14 @@ a.nav-link.contact-link:hover {
     margin: -50px 0 0 0; 
 }
 
-.box-solution{
+.box-solution, .solution-100 h3{
 	color: #000;
 	font-size: 30px;
 	font-weight: 900;
 	text-align: center;
 }
 
-.box-sol-para {
+.box-sol-para, .solution-100 p {
 	font-size: 20px;
 	line-height: 26px;
 	color: #000;
@@ -346,6 +378,9 @@ footer {
 	padding-left: 5px;
 }
 
+.mintbox-banner img {
+	width: 75%;
+}
 
 
 

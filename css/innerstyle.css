@@ -68,6 +68,7 @@
 	font-size: 24px;
 	font-weight: 900;
 	line-height: 24px;
+	color: #000;
 }
 
 ul.struggling-list {
@@ -308,4 +309,154 @@ legend {
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
+
 }
+
+
+/*---------------Solution Css--------------*/
+
+.solution-100 {
+	padding: 40px 0;
+}
+
+.accordion>.card {
+    padding: 0;
+}
+
+.accordion>.card:first-of-type, .accordion>.card {
+    border: none;
+    text-align: left;
+}
+
+
+.accordion>.card .card-header {
+    border: none;
+    padding: 15px 20px;
+    color: #fff;
+}
+.md-accordion .card .card-header {
+	background: #52e5cc;		
+}
+.card-body {
+	padding: 15px 20px;
+}
+.accordion>.card .card-header h5{
+    color: #000;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.md-accordion .card .fa-angle-down {
+    float: right;
+    font-size: 22px;
+    color: #000;
+    font-weight: 900;
+}
+
+.md-accordion .card .card-header a:not(.collapsed) .rotate-icon {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.collapse-init {
+	float: right;
+	margin: 30px 0 40px;
+	outline: 0;
+}
+
+.collapse-init:focus {
+	outline: 0;
+}
+
+#headingTwo, #headingFour {
+	background-color: #ccf7ef;
+}
+
+.card-body p {
+	font-size: 18px;
+	color: #000;
+	line-height: 24px;
+	margin: 0 0 10px 0;
+}
+
+.solution-100 h3 {
+    font-size: 26px;
+}
+
+.solution-100 p {
+	font-size: 19px;
+}
+.number-leaf {
+	background: url(../images/key-feature-number-leaf.svg) top left no-repeat;
+	width: 12%;
+    float: left;
+    height: auto;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000;
+    background-size: 62%;
+    padding: 0 0 0 8px;
+}
+
+
+.features-col p, .features-col ul li{
+	width: 88%;
+	float: right;
+	color: #000;
+	font-size: 16px;
+	margin: 0;
+	line-height: 20px;
+}
+
+.features-col img {
+	width: 100%;
+}
+
+.features-col ul{
+	width: 100%;
+	margin: 20px 0 0 15px;
+	float: left;
+}
+
+.features-col li {
+	width: 100%;
+}
+
+.solution-100 .heading-24 {
+	margin: 20px 0 0px;
+}
+
+.benifits-col {
+	margin: 0 -15px 30px;
+}
+
+.benifits-col:last-child{
+	margin-bottom: 0px;
+}
+
+.benifits-icon {
+	margin: -2px 0px 0 0;
+    width: 15%;
+    float: left;
+}
+
+.benifits-col h3 {
+	width: 78%;
+	float: right;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 22px;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+

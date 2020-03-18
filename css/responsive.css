@@ -24,9 +24,30 @@
     	left: 2px;
     }
 
+    .number-leaf {
+	    width: 13%;
+	    background-size: 60%;
+	    padding: 0 0 0 7px;
+	} 
+
+	.features-col p, .features-col ul li {
+	    width: 86%;
+	}
+
 }
 
 @media (max-width: 991px) { 
+	.navbar-nav .dropdown-menu {
+	    width: 100%;
+	    max-width: 100%;
+	    text-align: center;
+	    padding: 0;
+	    background-color: transparent;
+	    box-shadow: none;
+	}
+	.dropdown-item:hover:after {
+		display: none;
+	}
 	.navbar-collapse {
 		background-image: linear-gradient(123deg, #0072bc, #00b19b 77%, #00bb50);
 		margin: 15px 0 0 0;
@@ -125,6 +146,7 @@
     .expert-form select {
 	    background-size: 2%;
 	}
+
 }
 
 @media (max-width: 650px) {
@@ -176,7 +198,39 @@
     .expert-user-header a img {
 		margin: 15px 0 20px 0px;
 	}
-
+	.number-leaf {
+	    width: 6%;
+	    background-size: 73%;
+	}
+	.features-col p, .features-col ul li {
+	    width: 92%;
+	}
+	.accordion>.card .card-header h5 {
+    	font-size: 18px;
+    }
+    .card-body p {
+    	font-size: 16px;
+    }
+    .benifits-icon {
+    	width: 9%;
+    }
+    .benifits-col h3 {
+    	width: 88%;
+    }
+    .solution-100 h3 {
+    	font-size: 26px;
+    }
+    .solution-100 .heading-24 {
+    	font-size: 20px;
+    }
+    .solution-100 p {
+	    font-size: 16px;
+	    margin-bottom: 30px;
+	    text-align: justify;
+	}
+	.benifits-col h3 {
+    	font-size: 16px;
+    }
 }
 
 @media (max-width: 550px) {
@@ -187,6 +241,11 @@
 
 	.recomendation-right img {
 	    width: 60%;
+	}
+
+	.number-leaf {
+	    width: 7%;
+	    background-size: 74%;
 	}
 }
 
@@ -239,6 +298,21 @@
 	.quick-detail .contact-details {
    		width: 91%;
    	}
+   	.number-leaf {
+    	width: 9%;
+    }
+    .features-col p, .features-col ul li {
+	    width: 89%;
+	}
+}
+
+@media (max-width: 420px) {
+	.number-leaf {
+	    width: 10%;
+	}
+	.features-col p, .features-col ul li {
+	    width: 88%;
+	}
 }
 
 @media (max-width: 375px) {
@@ -271,8 +345,26 @@
 	    margin: 5px 0;
 	    width: 100%;
 	}
+	.accordion>.card .card-header h5 {
+	    font-size: 16px;
+	}
+	.solution-100 h3 {
+	    font-size: 24px;
+	}
+	.number-leaf {
+	    width: 11%;
+	}
+	.benifits-col h3 {
+		font-size: 16px;
+	}
 }
 
+@media (max-width: 350px) {
+	.navbar-toggler {
+	    width: 17%;
+	}
+
+}
 
 
 
