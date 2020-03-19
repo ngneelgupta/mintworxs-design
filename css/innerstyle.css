@@ -167,7 +167,7 @@ ul.struggling-list {
 legend {
 	font-size: 22px;
     color: #000;
-    line-height: 22px;
+    line-height: 23px;
     font-weight: 900;
     margin: 0px 0 18px 0;
 }
@@ -451,12 +451,131 @@ legend {
 	text-align: left;
 }
 
+.process-flow {
+	width: 100%;
+}
+ .flow-img {
+	border: 2px solid #52E5CC;
+	border-radius: 12px;
+	padding: 10px;
+	position: relative;
+}
+
+.flow-img img {
+	width: 100%;
+}
 
 
+.process-flow .flow-img::before {	
+    position: absolute;
+    content: "";
+    border-left: 2px solid #52E5CC;
+    border-top: 2px solid #52E5CC;
+    height: 40px;
+    top: -40px;
+    width: 20px;
+    left: 50%;
+    border-radius: 8px 0px 0 0px;
+}
+
+.process-flow .flow-img::after {
+	position: absolute;
+    content: "";
+    border-left: 2px solid #52E5CC;
+    border-bottom: 2px solid #52E5CC;
+    height: 40px;
+    bottom: -40px;
+    width: 340%;
+    left: 50%;
+    border-radius: 0 0 0 8px;
+}
+
+.process-flow-2 .flow-img::before {	
+    position: absolute;
+    content: "";
+    border-right: 2px solid #52E5CC;
+    border-top: 2px solid #52E5CC;
+    height: 40px;
+    top: -40px;
+    width: 20px;
+    left: 44%;
+    border-radius: 0 8px 0 0px;
+}
+
+.process-flow-2 .flow-img::after {
+	position: absolute;
+    content: "";
+    border-right: 2px solid #52E5CC;
+    border-bottom: 2px solid #52E5CC;
+    height: 40px;
+    bottom: -40px;
+    width: 340%;
+    right: 50%;
+    border-radius: 0 0px 8px 0px;
+}
 
 
+.process-start {
+	margin: 0 0 74px 0;
+}
+
+.process-start .features-col { 
+	padding: 90px 15px 0;
+}
+
+.process-start .features-col .number-leaf{
+	width: 5%;
+    background-size: 63%;
+}
+
+.process-start .features-col p {
+    width: 95%;
+   	padding: 0px 0 0 0;
+   	font-size: 18px;
+    margin: 0;
+    line-height: 23px;
+}
+
+.process-col .process-start:nth-of-type(2) .flow-img::before {
+	display: none;
+}
 
 
+.process-flow-2:last-child .flow-img::after {
+	display: none;
+}
 
 
+.use-cases .features-col {
+	margin: 30px -15px;
+}
 
+.use-cases .number-leaf {
+    width: 7%;
+    background-size: 69%;
+}
+
+.use-cases .features-col p{
+    width: 92%;
+}
+
+.ai-business {
+	border-radius: 12px;
+	border: 1px solid #52E5CC;
+	padding: 25px;
+	min-height: 157px;
+}
+
+.ai-business h2 {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	margin: 0 0 15px 0;
+}
+
+.ai-business p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	margin: 0;
+}
