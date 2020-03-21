@@ -301,6 +301,8 @@ img.user-img {
 
 .expert-form .form-group{
 	margin-bottom: 22px; 
+	width: 100%;
+	float: left;
 }
 
 .expert-form .form-group img {
