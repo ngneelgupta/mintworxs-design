@@ -19,19 +19,19 @@
     .people-box-col:after, .thoughts-col:after, .align-right .quote, .align-right:after {
     	right: 2px;
     }
-
     .align-right:after {
     	left: 2px;
     }
-
     .number-leaf {
 	    width: 13%;
 	    background-size: 60%;
 	    padding: 0 0 0 7px;
-	} 
-
+	}
 	.features-col p, .features-col ul li {
 	    width: 86%;
+	}
+	.case-study-col .box-link {
+	    margin: -30px 0 0 65px;
 	}
 
 }
@@ -154,6 +154,10 @@
 	    width: 90%;
 	}
 
+	.number-leaf {
+	    width: 12%;
+	}
+
 	.process-start .features-col .number-leaf {
 	    width: 6%;
 	    background-size: 63%;
@@ -166,6 +170,18 @@
 	}
 	.process-start .features-col {
 	    padding: 60px 15px 0;
+	}
+	.card-body {
+	    padding: 20px 0px;
+	}
+	.analytics-col {
+		padding: 15px;
+	}
+	.analytics-col img{
+		width: 100%;
+	}
+	.case-study-col .box-link {
+	    margin: -30px 0 0 140px;
 	}
 }
 
@@ -224,6 +240,9 @@
 	    height: 170px;
 	    margin: 0 0 15px;
 	}
+	.case-study-col .box-link {
+	    margin: -30px 0 0 80px;
+	}
 
 }
 
@@ -277,8 +296,8 @@
 		margin: 15px 0 20px 0px;
 	}
 	.number-leaf {
-	    width: 6%;
-	    background-size: 73%;
+	    width: 5%;
+	    background-size: 81%;
 	}
 	.features-col p, .features-col ul li {
 	    width: 92%;
@@ -364,7 +383,7 @@
 	.card-body h3 { 
 		font-size: 18px;
 	}
-	.card-body ul.responsibilities-list {
+	.card-body .job-deatils ul {
 		text-align: justify;
 	}
 	.image-overlay img {
@@ -373,6 +392,15 @@
 	.overlay-text {
 	    width: 95.4%;
 	    height: 95%;
+	}
+	.card-body .features-col .mb-5, .case-detail-100  .features-col .mb-4 {
+		margin-bottom: 0!important; 
+	}
+	.case-detail-100 .features-col .col-12.mb-4 {
+		margin-bottom: 20px!important; 
+	}
+	.case-study-col .box-link {
+	    margin: -30px 0 0 56px;
 	}
 }
 
@@ -389,7 +417,7 @@
 
 	.number-leaf {
 	    width: 7%;
-	    background-size: 74%;
+	    background-size: 69%;
 	}
 	#tabs nav {
 	    width: 62%;
@@ -397,12 +425,21 @@
 	.overlay-text {
     	width: 94.5%;
     }
-    .card-body ul.responsibilities-list {
+    .card-body .job-deatils ul {
 	    width: 93%;
 	}
 	.pop-up-modal .modal-dialog {
 	    max-width: 450px;
 	    margin: 70px 20px;
+	}
+	.case-detail-100 {
+		padding: 30px 0;
+	}
+	.case-detail-100 .benifits-col {
+		margin-bottom: 0!important;
+	}
+	.case-study-col .box-link {
+	    margin: -30px 0 0 165px;
 	}
 
 }
@@ -458,6 +495,7 @@
    	}
    	.number-leaf {
     	width: 9%;
+    	background-size: 67%;
     }
     .features-col p, .features-col ul li {
 	    width: 89%;
@@ -484,12 +522,15 @@
 	.hiring-process-100 {
 		padding: 30px 0 60px;
 	}
-
+	.case-study-col .box-link {
+	    margin: -30px 0 0 119px;
+	}
 }
 
 @media (max-width: 420px) {
 	.number-leaf {
 	    width: 10%;
+	    background-size: 65%;
 	}
 	.features-col p, .features-col ul li {
 	    width: 88%;
@@ -515,7 +556,11 @@
 	.image-overlay img {
 	    height: 250px;
 	}
+	.case-study-col .box-link {
+	    margin: -30px 0 0 100px;
+	}
 }
+
 
 
 @media (max-width: 375px) {
@@ -585,6 +630,9 @@
 	.overlay-text {
 	    width: 92%;
 	}
+	.case-study-col .box-link {
+	    margin: -30px 0 0 79px;
+	}
 }
 
 @media (max-width: 350px) {
@@ -623,6 +671,27 @@
 	.overlay-text {
 	    width: 91%;
 	    height: 94%;
+	}
+	.number-leaf {
+	    width: 13%;
+	}
+	.features-col p {
+	    width: 87%;
+	}
+	.box-link {
+	    margin: -78px 0 0 70px;
+	}
+	.case-study-col .box-link {
+	    margin: -30px 0 0 70px;
+	}
+}
+
+@media (max-width: 320px) {
+	.box-link {
+	    margin: -78px 0 0 54px;
+	}
+	.case-study-col .box-link {
+	    margin: -30px 0 0 54px;
 	}
 }
 
