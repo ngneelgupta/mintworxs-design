@@ -4,6 +4,12 @@
 	}
 }
 
+@media (max-width: 1280px) {
+	.card-body {
+	    padding: 7px 0px 0;
+	}
+}
+
 @media (max-width: 1024px) {
 
 	/*Home Page Responsive Css*/
@@ -32,6 +38,21 @@
 	}
 	.case-study-col .box-link {
 	    margin: -30px 0 0 65px;
+	}
+	.form-inline .form-control {
+    	width: 63%;
+    }
+    .card-title {
+    	line-height: 28px;
+    	font-size: 20px;
+    }
+
+    .card-body p {
+	    font-size: 15px;
+	    line-height: 19px;
+	}
+	.blog-100 .dropdown-menu {
+		min-width: 994px;
 	}
 
 }
@@ -182,6 +203,26 @@
 	}
 	.case-study-col .box-link {
 	    margin: -30px 0 0 140px;
+	}
+	.blog-100 .dropdown-menu {
+	    min-width: 100%;
+	    height: 232px;
+	    overflow-y: scroll;
+	}
+	.blog-100 .dropdown-menu li {
+	    width: 50%;
+	}
+	.recent-post-col {
+		margin: 30px 0 0 0;
+	}
+	.expert-form.form-inline .form-group img {
+		width: auto;
+	}
+	.form-inline.expert-form .form-group {
+		margin: 0;
+	}
+	.recent-post:last-child {
+		margin: 0;
 	}
 }
 
@@ -402,10 +443,22 @@
 	.case-study-col .box-link {
 	    margin: -30px 0 0 56px;
 	}
+	.blog-card .col-md-5 {
+		padding: 0!important;
+	}
+	.card-body {
+	    padding: 20px 0px 20px 15px;
+	}
+	.blog-detail-wrapper {
+		padding-bottom: 0;
+	}
+	.blog-details .card-body, .leave-reply {
+		padding: 20px 15px;
+	}
 }
 
 
-@media (max-width: 550px) {
+@media (max-width: 575px) {
 	
     .problems-col {
 	    margin: 0 -15px;
@@ -440,6 +493,16 @@
 	}
 	.case-study-col .box-link {
 	    margin: -30px 0 0 165px;
+	}
+	.form-inline .form-control {
+	    width: auto;
+	    display: inline-block;
+	}
+	.expert-form.form-inline .form-group img {
+		margin: 8px 0px 0 10px;
+	}
+	.subscribe-btn {
+		margin: 5px 0;
 	}
 
 }
@@ -525,7 +588,15 @@
 	.case-study-col .box-link {
 	    margin: -30px 0 0 119px;
 	}
+	.subscribe-btn {
+	    margin: 1px 0;
+	}
+	.blog-100 .dropdown-menu li {
+	    width: 100%;
+	}
+
 }
+
 
 @media (max-width: 420px) {
 	.number-leaf {
@@ -633,6 +704,7 @@
 	.case-study-col .box-link {
 	    margin: -30px 0 0 79px;
 	}
+
 }
 
 @media (max-width: 350px) {
@@ -684,6 +756,20 @@
 	.case-study-col .box-link {
 	    margin: -30px 0 0 70px;
 	}
+	.form-inline .form-control {
+	    width: 100%;
+	    padding: 10px 20px 11px 42px;
+	    border-radius: 0;
+	    height: auto;
+	}
+	.subscribe-btn {
+		float: right;
+	}
+
+
+
+
+
 }
 
 @media (max-width: 320px) {

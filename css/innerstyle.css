@@ -744,14 +744,14 @@ legend {
 
 
 /*-----------------Case Study Css--------------*/
-.case-study-col {
+.case-study-col, .blog-100 {
     z-index: 99999;
     position: relative;
     padding: 60px 0 0;
     background-color: #fff;
 }
 
-.case-study-col .col-lg-4 {
+.case-study-col .col-lgv-4 {
     margin-bottom: 70px;
 }
 
@@ -806,23 +806,223 @@ legend {
 }
 
 
+/*-------------Blog Page Css--------------*/
+.blog-100 {
+    padding: 0;
+    background-color: #3e7677;
+}
 
+.blog-100 .btn-primary {
+    color: #fff;
+    background-color: #3e7677;
+    border-color: #3e7677;
+    width: 100%;
+    text-align: left;
+    padding: 18px 19px 18px 15px;
+    border-radius: 0;
+}
 
+.blog-100 .btn-primary:hover {
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0px 5px 18px #00000014;
+    border: 1px solid transparent;
+}
 
+.blog-100 .dropdown-toggle::after {
+    right: 15px;
+    top: 29px;
+    position: absolute;
+    display: inline-block;
+    margin-left: 0em; 
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
 
+.blog-100 .dropdown-menu {
+    min-width: 1080px;
+    color: #000;
+    box-shadow: 0px 5px 18px #00000014;
+    text-align: left;
+    border: 0;
+    border-radius: .25rem;
+}
 
+.blog-100 input {
+    border: none;
+    border-left: 1px solid #fff;
+    background: transparent;
+    padding: 21px 15px 22px 43px;
+    color: #fff;
+    width: 100%;
+    line-height: 0px;
+}
 
+.blog-100 input:focus {
+    outline: 0;
+}
 
+.blog-100 button:focus {
+    outline: 0;
+}
 
+.blog-100 ::-webkit-input-placeholder { /* Edge */
+  color: #fff;
+}
 
+.blog-100 :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+}
 
+.blog-100 ::placeholder {
+  color: #fff;
+}
 
+.filters-group:before {
+    content: "\f002";
+    position: absolute;
+    font-family: 'fontAwesome';
+    color: #fff;
+    font-size: 17px;
+    margin: 18px 0 0 15px;
+}
 
+.blog-100 button.btn-primary:focus {
+    box-shadow: none;
+    background: #fff;
+    color: #000;
+}
 
+.blog-second-wrapper {
+    padding: 60px 0 0;
+}
 
+.blog-detail-wrapper {
+    padding: 60px 0 30px;
+    background-color: #fff;
+    z-index: 99999;
+    position: relative;
+}
 
+.card {
+    border: 0;
+}
 
+.card-body {
+    padding: 18px 0px;
+}
 
+.card-title {
+    line-height: 34px;
+    font-size: 26px;
+    font-weight: 900;
+    color: #000;
+    margin: 0 0 10px 0
+}
+
+.card-body p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+}
+
+.post-data-text, .post-data-text a {
+    font-size: 15px;
+    color: #afafaf;
+    font-weight: 400;
+    margin: 0 0 8px 0;
+}
+
+.blog-card {
+    margin: 0 0 30px 0;
+    -webkit-box-shadow: 0 0px 3px 1px rgba(0,0,0,.2);
+    box-shadow: 0 0px 3px 1px rgba(0,0,0,.2);   
+}
+
+.read-blog {
+    float: right;
+    color: #000;
+}
+
+.recent-post {
+    width: 100%;
+    float: left;
+    margin: 0 0 20px 0;
+}
+.recent-post h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    color: #afafaf;
+}
+
+.recent-post ul {
+    list-style: none;
+}
+
+.recent-post ul li {
+    -webkit-box-shadow: 0 0px 3px 1px rgba(0,0,0,.2);
+    box-shadow: 0 0px 3px 1px rgba(0,0,0,.2);
+    padding: 8px 20px;
+    margin: 20px 0;
+}
+
+.recent-post ul li a {
+    color: #000;
+    font-size: 16px;
+
+}
+
+.form-inline .form-control {
+    width: 66%;
+    padding: 8px 20px 8px 42px;
+    border-radius: 0;
+}
+
+.form-inline .form-control:focus {
+    outline: 0;
+    box-shadow: none;
+    background: #ccf7ef;
+}
+
+.subscribe-btn {
+    color: #000;
+    padding: 9px 27px!important;
+    background: #00D8AE;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 0.16px;
+}
+
+.expert-form.form-inline .form-group img {
+    margin: -4px 0px 0 10px;
+    width: 6%;
+}
+
+.blog-details, .leave-reply {
+    -webkit-box-shadow: 0 0px 3px 1px rgba(0,0,0,.2);
+    box-shadow: 0 0px 3px 1px rgba(0,0,0,.2);   
+}
+
+.blog-100 .dropdown-menu li {
+    width: 25%;
+    float: left;
+}
+
+.blog-details .card-body {
+    padding: 20px 30px;
+}
+
+.leave-reply {
+    margin: 20px 0 0 0;
+    padding: 30px;
+}
 
 
 
