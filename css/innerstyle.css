@@ -1024,17 +1024,146 @@ legend {
     padding: 30px;
 }
 
+/*-----------------About Us Css------------------*/
+
+.core-values img {
+    width: 13%;
+    float: left;
+}
+
+.core-values h4 {
+    margin: 0 0 5px 0;
+}
+
+.core-values p, .mission-100 p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0;
+}
+
+.core-details {
+    width: 82%;
+    float: right;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.customer-100 {
+    background: url(../images/client-banner.jpg) top center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+} 
+
+.customer-overlay {
+    background: rgba(0,0,0,.7);  
+    padding: 80px 0; 
+    margin: 20px 0 0 0;
+}
+
+.customer-100 h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.customer-100 img {
+    width: 100%;
+}
+
+.mission-100 {
+    padding: 90px 0;
+}
+
+.mission-100 p {
+    margin: 15px 0;
+    line-height: 25px;
+}
+
+#vission-accordion .card{
+    margin-top: 10px;
+}
+
+#vission-accordion .card-header {
+    background: #00d8ae;
+    border-radius: 39px;
+    padding: 15px 26px;   
+    margin: 0px 0 10px 0;
+}
+
+#vission-accordion.accordion>.card .card-header h5 {
+    font-size: 18px;
+}
+
+#vission-accordion.accordion .collapse {
+    padding: 0px;
+}
+
+#vission-accordion.accordion .card-body {
+    background: #ccf7ef;
+    padding: 2px 26px;
+}
 
 
+#vission-accordion .card .card-header a:not(.collapsed) .rotate-icon {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
 
+#vission-accordion .card .fa-angle-right {
+    float: right;
+    font-size: 22px;
+    color: #000;
+    font-weight: 900;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
 
+.mission-100 img {
+    width: 100%;
+    margin: 55px 0 0 20px;
+}
 
+.clients-thought {
+    background: url(../images/clients-thought-banner.jpg) top center no-repeat;
+    width: 100%;
+    height: 100%;
+}
 
+.clients-thought .people-box-col {
+    margin-bottom: 20px;
+    background-color: transparent;
+    box-shadow: none;
+    max-width: 762px;
+    padding: 30px 0px 38px 0px;
+}
 
+.clients-thought .people-box-col:after {
+    display: none;
+}
 
+.clients-thoughts-col p {
+    color: #fff;
+    font-size: 15px;
+}
 
+.clients-thoughts-col img.user-img {
+    width: 160px!important;
+}
 
-
+.clients-thoughts-col .col-lg-9 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 
 

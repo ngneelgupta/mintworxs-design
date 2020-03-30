@@ -150,14 +150,14 @@ a.nav-link.contact-link:hover {
     margin: -50px 0 0 0; 
 }
 
-.box-solution, .solution-100 h3{
+.box-solution, .solution-100 h3, .mission-100 h3{
 	color: #000;
 	font-size: 30px;
 	font-weight: 900;
 	text-align: center;
 }
 
-.box-sol-para, .solution-100 p {
+.box-sol-para, .solution-100 p, .clients-thoughts-col p {
 	font-size: 20px;
 	line-height: 26px;
 	color: #000;
@@ -209,6 +209,7 @@ a.nav-link.contact-link:hover {
 	box-shadow: 0px 5px 18px #00000014;
 	border-radius: 24px;
 	padding: 43px 50px 43px 43px;
+	background-color: #fff;
 }
 
 img.quote {
