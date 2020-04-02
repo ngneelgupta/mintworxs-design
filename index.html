@@ -9,13 +9,15 @@
   	<link rel="stylesheet" type="text/css" href="css/bootstrap4-min.css">
 
   	<!-- Homepage Css Link -->
-  	<link rel="stylesheet" type="text/css" href="css/homepage.css">
+	  <link rel="stylesheet" type="text/css" href="css/homepage.css">
+	  <link rel="stylesheet" type="text/css" href="css/innerstyle.css">
 
   	<!-- Responsive CSS link -->
   	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 
   	<!-- Google font link -->
   	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
 </head>
 <body>
@@ -51,55 +53,135 @@
 			</div> 
 		</div>
 	</nav>
-	<!-- Banner Heading -->
-	<section class="home-banner-100">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<h1 class="banner-heading">Hey! We Build Fresh Intelligence Driven Business Platforms. <span style="color: #00D8AE">Fresh As Mint!</span></h1>
-					<a href="#" class="learn-more-link">Learn more</a>
-				</div>
-			</div>
+
+
+	<div id="demo" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+		    <li data-target="#demo" data-slide-to="0" class="active"></li>
+		    <li data-target="#demo" data-slide-to="1"></li>
+		    <li data-target="#demo" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+		    <div class="carousel-item active">
+		      	<div class="carousel-caption">
+		        	<h1 class="banner-heading">Hey! We Build Fresh Intelligence Driven Business Platforms. <span style="color: #00D8AE">Fresh As Mint!</span></h1>
+		      	</div>   
+		    </div>
+		    <div class="carousel-item">
+		      	<div class="carousel-caption">
+		        	<h1 class="banner-heading">We aspire to be your digital partner and take on your businesses challenges as if they were our own.</h1>
+		      	</div>   
+		    </div>
+		    <div class="carousel-item">
+		      	<div class="carousel-caption">
+		        	<h1 class="banner-heading">Product development done right, with breakthrough technologies and Agile processes.</h1>
+		      	</div>   
+		    </div>
 		</div>
-	</section>
-	<section class="text-center">
+	  	<a class="carousel-control-prev" href="#demo" data-slide="prev">
+	    	<span class="carousel-control-prev-icon"></span>
+	  	</a>
+	  	<a class="carousel-control-next" href="#demo" data-slide="next">
+	    	<span class="carousel-control-next-icon"></span>
+	  	</a>
+	</div>
+
+
+	<section class="solve-pblm-100">
 		<div class="container">
 			<div class="row">
-				<div class="col-12">
-					<img src="images/homepage-infographics.svg" class="infographic-img">
+				<div class="col-12 mb-5">
+					<h3 class="box-solution">Problems We Solved</h3>
+				</div>
+				<div class="col-md-4">
+					<div class="solve-problems-col">
+						<div class="solve-problem-img">
+							<img src="images/solved-pblm-img-01.svg">
+						</div>
+						<h5 class="heading-20">Pharma</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<div class="solved-pblm-link">
+							<a href="#">Mint Survey <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="solve-problems-col">
+						<div class="solve-problem-img">
+							<img src="images/solved-pblm-img-01.svg">
+						</div>
+						<h5 class="heading-20">Pharma</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<div class="solved-pblm-link">
+							<a href="#">Mint Survey <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="solve-problems-col">
+						<div class="solve-problem-img">
+							<img src="images/solved-pblm-img-01.svg">
+						</div>
+						<h5 class="heading-20">Pharma</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<div class="solved-pblm-link">
+							<a href="#">Mint Survey <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 text-center mt-4">
+					<a href="#" class="btn learn-more-link">View More</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- Out of the box solution section-->
-	<section class="out-solution text-center">
+	<section class="out-solution">
 		<div class="container">
 			<div class="row">
-				<div class="col-12">
-					<h3 class="box-solution">Out Of The Box Solutions</h3>
-					<p class="box-sol-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div class="col-md-5 box-solution-details">
+					<h3 class="box-solution text-left">Out Of The Box Solutions</h3>
+					<p class="box-sol-para text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6 text-center">
-					<div class="box-col">
-						<img src="images/mint-commerce.svg">
+				<div class="col-md-7">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="box-col text-center">
+								<img src="images/mint-commerce.svg">
+								<h5 class="heading-20">Mint Commerce</h5>
+								<a href="#" class="box-link">Read More</a>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="box-col text-center">
+								<img src="images/mint-commerce.svg">
+								<h5 class="heading-20">Mint Commerce</h5>
+								<a href="#" class="box-link">Read More</a>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="box-col text-center">
+								<img src="images/mint-commerce.svg">
+								<h5 class="heading-20">Mint Commerce</h5>
+								<a href="#" class="box-link">Read More</a>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="box-col text-center">
+								<img src="images/mint-commerce.svg">
+								<h5 class="heading-20">Mint Commerce</h5>
+								<a href="#" class="box-link">Read More</a>
+							</div>
+						</div>
 					</div>
-					<a href="#" class="box-link">Mint Commerce</a>
-				</div>
-				<div class="col-sm-6">
-					<div class="box-col">
-						<img src="images/mint-commerce.svg">
-					</div>
-					<a href="#" class="box-link">Mint Survey</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- Happy People Section -->
-	<section class="happy-people-col">
+	<!-- <section class="happy-people-col">
 		<div class="container">
 			<div class="row mb-5">
 				<div class="col-12">
@@ -139,14 +221,14 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<!--Our People THoughts Section -->
 	<section class="thoughts-100">
 		<div class="container">
 			<div class="row mb-5">
 				<div class="col-12">
-					<h3 class="box-solution">Our People’s Thoughts</h3>
+					<h3 class="box-solution">Minties Thoughts</h3>
 				</div>
 			</div>
 			<div class="row">

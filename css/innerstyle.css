@@ -41,7 +41,7 @@
 }
 
 .problems-col {
-	margin: 0 -15px 70px;
+	margin: 0 -15px 0px;
 }
 
 .problems-100 .box-col {
@@ -183,6 +183,10 @@ legend {
 
 .services-100.problems-100 .problems-col:last-child {
 	margin-bottom: 20px;
+}
+.services-100 .box-link{
+    width: 182px;
+    margin: -6px 0 0 180px;
 }
 
 
@@ -938,7 +942,7 @@ legend {
 }
 
 .blog-card {
-    margin: 0 0 30px 0;
+        margin: 3px 15px 30px 15px;
     -webkit-box-shadow: 0 0px 3px 1px rgba(0,0,0,.2);
     box-shadow: 0 0px 3px 1px rgba(0,0,0,.2);   
 }
@@ -1024,6 +1028,18 @@ legend {
     padding: 30px;
 }
 
+.problem-col {
+    height: 75px;
+}
+
+.problems-col .col-sm-6{
+    margin : 0 0 70px 0;
+}
+
+ul.filter_box {
+    list-style: none;
+}
+
 /*-----------------About Us Css------------------*/
 
 .core-values img {
@@ -1050,7 +1066,6 @@ legend {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .customer-100 {
@@ -1058,11 +1073,11 @@ legend {
     width: 100%;
     height: 100%;
     background-size: cover;
-} 
+}
 
 .customer-overlay {
-    background: rgba(0,0,0,.7);  
-    padding: 80px 0; 
+    background: rgba(0,0,0,.7);
+    padding: 80px 0;
     margin: 20px 0 0 0;
 }
 
@@ -1081,23 +1096,23 @@ legend {
     padding: 90px 0;
 }
 
-.mission-100 p {
-    margin: 15px 0;
-    line-height: 25px;
-}
+    .mission-100 p {
+        margin: 15px 0;
+        line-height: 25px;
+    }
 
-#vission-accordion .card{
+#vission-accordion .card {
     margin-top: 10px;
 }
 
 #vission-accordion .card-header {
     background: #00d8ae;
     border-radius: 39px;
-    padding: 15px 26px;   
+    padding: 15px 26px;
     margin: 0px 0 10px 0;
 }
 
-#vission-accordion.accordion>.card .card-header h5 {
+#vission-accordion.accordion > .card .card-header h5 {
     font-size: 18px;
 }
 
@@ -1138,17 +1153,17 @@ legend {
     height: 100%;
 }
 
-.clients-thought .people-box-col {
-    margin-bottom: 20px;
-    background-color: transparent;
-    box-shadow: none;
-    max-width: 762px;
-    padding: 30px 0px 38px 0px;
-}
+    .clients-thought .people-box-col {
+        margin-bottom: 20px;
+        background-color: transparent;
+        box-shadow: none;
+        max-width: 762px;
+        padding: 30px 0px 38px 0px;
+    }
 
-.clients-thought .people-box-col:after {
-    display: none;
-}
+        .clients-thought .people-box-col:after {
+            display: none;
+        }
 
 .clients-thoughts-col p {
     color: #fff;
@@ -1156,7 +1171,7 @@ legend {
 }
 
 .clients-thoughts-col img.user-img {
-    width: 160px!important;
+    width: 160px !important;
 }
 
 .clients-thoughts-col .col-lg-9 {
@@ -1164,8 +1179,3 @@ legend {
     justify-content: center;
     flex-direction: column;
 }
-
-
-
-
-
