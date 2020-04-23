@@ -1,6 +1,6 @@
 @media (min-width: 992px), (min-width: 768px), (min-width: 576px) {
 	.container {
-		max-width: 1120px!important;
+		max-width: 1170px!important;
 	}
 }
 
@@ -8,14 +8,17 @@
 	.card-body {
 	    padding: 7px 0px 0;
 	}
+	.mission-100 img {
+	    margin: 55px 0 0 0px;
+	}
+	.hiring-process-100 .card-body {
+	    padding: 7px 0px 20px;
+	}
 }
 
 @media (max-width: 1024px) {
 
 	/*Home Page Responsive Css*/
-	.box-link {
-		margin: -30px 0 0 150px;
-	}
 	.box-col {
 		width: 100%;
 	}
@@ -36,11 +39,8 @@
 	.features-col p, .features-col ul li {
 	    width: 86%;
 	}
-	.case-study-col .box-link {
-	    margin: -30px 0 0 65px;
-	}
 	.form-inline .form-control {
-    	width: 63%;
+    	width: 61%;
     }
     .card-title {
     	line-height: 28px;
@@ -48,12 +48,30 @@
     }
 
     .card-body p {
-	    font-size: 15px;
-	    line-height: 19px;
+	    font-size: 16px;
+	    line-height: 26px;
 	}
 	.blog-100 .dropdown-menu {
 		min-width: 994px;
 	}
+	.solve-problem-img {
+        height: auto;
+    }
+	.solve-pblm-100 {
+		padding: 80px 0 60px;
+	}
+    .solve-problems-col h5 {
+        font-size: 19px;
+    }
+    .services-stdy-img {
+        height: 120px;
+    }
+    .process-start .features-col .number-leaf {
+        background-size: 68%;
+    }
+    .process-flow-2 .flow-img::before {
+        left: 42%;
+    }
 
 }
 
@@ -71,7 +89,7 @@
 	}
 	.navbar-collapse {
 		background-image: linear-gradient(123deg, #0072bc, #00b19b 77%, #00bb50);
-		margin: 15px 0 0 0;
+		margin: 12px 0 0 0;
 		z-index: 999999;
 	}
 
@@ -102,12 +120,18 @@
 	.banner-100 {
 	    margin: 65px 0 50px;
 	}
-	.banner-heading {
-    	font-size: 38px;
+    .carousel-caption {
+        padding: 0 15px;
     }
-    .box-link {
-	    margin: -30px 0 0 82px;
-	}
+    .carousel-caption .col-md-7 {
+        margin: 0!important;
+    }
+    #demo .learn-more-link {
+        font-size: 18px;
+    }
+    .common-heading {
+        font-size: 30px;
+    }
 	.box-sol-para {
     	font-size: 16px;
     }
@@ -116,6 +140,9 @@
     }
     .thoughts-col p {
     	text-align: justify;
+    }
+    .ecommerce-points {
+        width: 64%;
     }
     .thoughts-col:after {
 	    bottom: 82%;
@@ -201,9 +228,6 @@
 	.analytics-col img{
 		width: 100%;
 	}
-	.case-study-col .box-link {
-	    margin: -30px 0 0 140px;
-	}
 	.blog-100 .dropdown-menu {
 	    min-width: 100%;
 	    height: 232px;
@@ -224,7 +248,43 @@
 	.recent-post:last-child {
 		margin: 0;
 	}
+	.box-solution-details {
+		align-items: center;
+	}
+	.box-solution-details p {
+		padding-right: 0px;
+	}
+    .solve-pblm-100 .col-lg-4 {
+        padding: 0px 15px;
+        margin: 0 0 30px 0;
+    }
+    .solve-problems-col {
+        padding: 40px 30px 43px 30px;
+    }
+    .solve-problem-img img {
+        width: 40%;
+        margin: 0px 0 25px 0;
+    }
+    .solve-pblm-100 .col-12 a.learn-more-link {
+        margin: 0px;
+    }
+    .services-100 .box-col img {
+        height: 250px;
+    }
+    .services-100.problems-100 .problems-col:last-child {
+        margin-bottom: 0px;
+    }
+    .inner-banner-heading {
+        font-size: 27px;
+    }
+    .inner-banner p {
+        font-size: 17px;
+    }
+    #demo {
+        height: 65vh;
+    }
 }
+
 
 @media(max-width: 768px) {
 	.aiml-services .number-leaf {
@@ -267,7 +327,7 @@
     .opportunities-100 {
     	padding: 0 0 20px!important;
     }
-    .opportunities-100 .col-md-4 {
+    .opportunities-100 .col-lg-3 {
     	padding: 0 15px!important;
     }
     .opportunities-100 h1 {
@@ -281,10 +341,30 @@
 	    height: 170px;
 	    margin: 0 0 15px;
 	}
-	.case-study-col .box-link {
-	    margin: -30px 0 0 80px;
-	}
-
+	.solve-problem-img img {
+        width: 47%;
+    }
+    .services-stdy-img {
+        height: 180px;
+    }
+    .box-solution, .solution-100 h3, .mission-100 h3, .customer-100 h3 {
+        font-size: 26px;  
+    }
+    .benifits-col h3 {
+        font-size: 16px;
+    }
+    .out-solution p, .common-para p, .solution-100 p, .clients-thoughts-col p, .problems_section p {
+        font-size: 16px;
+    }
+    .clients-thoughts-col img.user-img {
+        margin: 0 auto;
+    }
+    .card-body .job-deatils h3 {
+        font-size: 17px;
+    }
+    .case-heading {
+        height: 55px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -293,9 +373,6 @@
     }
     .home-banner-100 .banner-heading {
 	    font-size: 30px;
-	}
-	.box-link {
-	    margin: -30px 0 0 58px;
 	}
 	.people-box-col {
 		text-align: center;
@@ -309,8 +386,9 @@
 	.thoughts-col {
 		margin: 100px 0 0px 0;
 	}
-	.thoughts-100 .col-md-6:first-child .thoughts-col {
-		margin: 50px 0 0px 0!important;
+	.thoughts-100 .row {
+	    margin-top: 0px!important;
+	    margin-bottom: 0px!important;
 	}
 	.inner-banner {
 		height: auto;
@@ -361,10 +439,14 @@
     .solution-100 .heading-24 {
     	font-size: 20px;
     }
-    .solution-100 p {
+    .solution-100 p{
 	    font-size: 16px;
 	    margin-bottom: 30px;
 	    text-align: justify;
+	}
+	.aiml-services p {
+	    text-align: left;
+	    margin-bottom: 20px;
 	}
 	.benifits-col h3 {
     	font-size: 16px;
@@ -379,7 +461,7 @@
 	.aiml-services .features-col p {
 	    width: 93%;
 	    margin: 0;
-	    font-size: 16px;
+	    font-size: 16px!important;
 	}
 	.flow-img {
 		text-align: center;
@@ -440,9 +522,6 @@
 	.case-detail-100 .features-col .col-12.mb-4 {
 		margin-bottom: 20px!important; 
 	}
-	.case-study-col .box-link {
-	    margin: -30px 0 0 56px;
-	}
 	.blog-card .col-md-5 {
 		padding: 0!important;
 	}
@@ -455,6 +534,59 @@
 	.blog-details .card-body, .leave-reply {
 		padding: 20px 15px;
 	}
+	.thoughts-col:after {
+        bottom: 70%;
+    }
+    .features-col p {
+        line-height: 26px;
+    }
+    .process-start .features-col {
+        align-items: flex-start;
+    }
+    .process-start .features-col .number-leaf {
+        margin: 0px;
+    }
+    .benifits-col h3 {
+        font-size: 16px;
+    }
+    .banner-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #demo .col-md-5 {
+        text-align: center;
+        padding: 0 15px!important;
+    }
+    #demo .col-md-7 {
+        text-align: center;
+    }
+    .carousel-inner img {
+        width: 63%;
+        margin: 0 auto 30px;
+    }
+    #demo {
+        height: 92vh;
+    }
+    .domain-col h3 {
+        font-size: 26px; 
+    }
+    .domain-col p {
+        font-size: 19px;
+    }
+    .common-para {
+        font-size: 19px;
+        line-height: 29px;
+    }
+    .ecommerce-points {
+        width: 78%;
+    }
+    .thoughts-100 .row .col-12 {
+        margin-bottom: 20px!important;
+        margin-top: 0px!important;
+    }
+    .thoughts-100 .card {
+        margin: 0 0 30px 0;
+    }
 }
 
 
@@ -491,9 +623,6 @@
 	.case-detail-100 .benifits-col {
 		margin-bottom: 0!important;
 	}
-	.case-study-col .box-link {
-	    margin: -30px 0 0 165px;
-	}
 	.form-inline .form-control {
 	    width: auto;
 	    display: inline-block;
@@ -504,6 +633,45 @@
 	.subscribe-btn {
 		margin: 5px 0;
 	}
+	.solve-problem-img img {
+        width: 65%;
+    }
+    .problems-col .col-sm-6:last-child {
+        margin-bottom: 30px;
+    }
+    .services-100 .box-col img {
+        height: auto;
+    }
+    .services-card-body p img {
+        width: 100%!important;
+        height: auto!important;
+    }
+    .solution-100 h3 {
+        font-size: 22px;
+    }
+    .services-stdy-img {
+        height: 200px;
+    }
+    .benifits-col h3 {
+        font-size: 16px;
+    }
+    .carousel-inner img {
+        width: 100%;
+    }
+    .banner-heading {
+        font-size: 24px;
+        line-height: 37px;
+    }
+    .ecommerce-points {
+        width: 75%;
+    }
+    .minify-heading {
+        font-size: 48px;
+    }
+    .demo-100 .col-sm-4.text-left {
+        text-align: center!important;
+        margin: 20px 0 0 0;
+    }
 
 }
 
@@ -512,10 +680,6 @@
 	.navbar-toggler {
     	width: 14%;
     }
-    .home-banner-100 .banner-heading {
-	    font-size: 27px;
-	    line-height: 50px;
-	}
 	.banner-100 {
 	    margin: 50px 0 65px;
 	}
@@ -524,9 +688,6 @@
 	}
 	.box-col {
 		margin: 0 0 50px;
-	}
-	.box-link {
-	    margin: -78px 0 0 108px;
 	}
 	.out-solution {
     	padding: 80px 0 30px;
@@ -538,17 +699,14 @@
     img.quote {
 	    margin: -78px 0 0 -206px;
 	}
-	.thoughts-100 .col-md-6:last-child .thoughts-col:after {
-		bottom: 74%;
-	}
 	.happy-people-col {
 	    margin: 50px 0 0px;
 	}
 	.inner-banner-heading {
-    	font-size: 30px;
+    	font-size: 23px;
     }
     .inner-banner-para {
-    	font-size: 17px;
+    	font-size: 16px;
     }
     .quick-detail img {
 	    width: 6%;
@@ -585,26 +743,67 @@
 	.hiring-process-100 {
 		padding: 30px 0 60px;
 	}
-	.case-study-col .box-link {
-	    margin: -30px 0 0 119px;
-	}
 	.subscribe-btn {
 	    margin: 1px 0;
 	}
 	.blog-100 .dropdown-menu li {
 	    width: 100%;
 	}
-
+	.out-solution p, .common-para p, .solution-100 p, .clients-thoughts-col p {
+		font-size: 16px;
+		margin: 15px 0 50px;
+	}
+	.aiml-services p {
+	    text-align: justify;
+	    margin-bottom: 20px;
+	}
+	.aiml-services .features-col p {
+	    text-align: left;
+	}
+	.thoughts-col:after {
+        bottom: 73%;
+    }
+    .services-card-body p, .recomendation p  {
+        text-align: justify!important;
+    }
+    .features-col p, .features-col ul li {
+        margin-top: 0px;
+    }
+	.features-para p {
+	    text-align: justify!important;
+	    font-size: 16px;
+	}
+	.features-col ul {
+	    padding-right : 15px;
+	}
+	.solution-100 .core-details p {
+	    margin: 0 0 0px;
+	}
+	.mission-100 {
+        padding: 30px 0 0;
+    }
+    .mission-100 img {
+        margin: 10px 0 0 0px;
+    }
+    .owl-item .people-box-col .col-lg-9 {
+        margin: 20px 0 0 0;
+    }
+    .owl-item .people-box-col {
+        margin-top: 0px;
+    }
+    .ai-business p {
+        margin: 20px 0;
+    }
 }
 
 
 @media (max-width: 420px) {
 	.number-leaf {
-	    width: 10%;
-	    background-size: 65%;
-	}
+        width: 9%;
+        background-size: 73%;
+    }
 	.features-col p, .features-col ul li {
-	    width: 88%;
+	    width: 91%;
 	}
 	.aiml-services .number-leaf {
 	    width: 11%;
@@ -627,12 +826,31 @@
 	.image-overlay img {
 	    height: 250px;
 	}
-	.case-study-col .box-link {
-	    margin: -30px 0 0 100px;
-	}
+	.solve-problem-img img {
+        width: 100%;
+    }
+    .problems-100 .box-col img, .problem-col {
+        height: auto;
+    }
+    .people-box-col .col-lg-10 {
+        padding-left: 15px!important;
+    }
+    .form-inline .form-control {
+        width: 70%;
+    }   
+    .subscribe-btn {
+        margin: 6px 0;
+    }
+    .expert-form.form-inline .form-group img {
+        margin: 12px 0px 0 10px;
+    }
 }
 
-
+@media (max-width: 414px) {
+    .form-inline .form-control {
+        width: 69%;
+    }
+}
 
 @media (max-width: 375px) {
 	.navbar-toggler {
@@ -640,9 +858,6 @@
 	}
 	.home-banner-100 .banner-heading {
 	    font-size: 25px;
-	}
-	.box-link {
-	    margin: -78px 0 0 80px;
 	}
 	img.quote {
 	    margin: -78px 0 0 -188px;
@@ -701,10 +916,37 @@
 	.overlay-text {
 	    width: 92%;
 	}
-	.case-study-col .box-link {
-	    margin: -30px 0 0 79px;
-	}
+	.thoughts-col:after {
+        bottom: 75%;
+    }
+    .out-solution p, .common-para p, .solution-100 p, .clients-thoughts-col p, .problems_section p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .recomendation-right {
+        height: auto;
+    }
+    .accordion .features-col p, .features-col ul li {
+        width: 88%;
+    }
+    .clients-thought {
+        background-size: 290%;
+    }
+    .clients-thoughts-col .owl-item p {
+        text-align: center;
+    }
+    .form-inline .form-control {
+        width: 66%;
+    }
+    .case-study-col .services-stdy-img {
+        height: 150px;
+    }
+}
 
+@media (max-width: 360px) {
+    .form-inline .form-control {
+        width: 65%;
+    }
 }
 
 @media (max-width: 350px) {
@@ -750,12 +992,6 @@
 	.features-col p {
 	    width: 87%;
 	}
-	.box-link {
-	    margin: -78px 0 0 70px;
-	}
-	.case-study-col .box-link {
-	    margin: -30px 0 0 70px;
-	}
 	.form-inline .form-control {
 	    width: 100%;
 	    padding: 10px 20px 11px 42px;
@@ -765,32 +1001,37 @@
 	.subscribe-btn {
 		float: right;
 	}
+	.box-solution {
+		text-align: center!important;
+	}
+	
+	p {
+	    font-size: 15px!important;
+	}
+	
+	.accordion .number-leaf {
+        background-size: 68%;
+    }
+    .accordion .features-col p, .features-col ul li {
+        width: 86%;
+    }
+    .solution-100 h3 {
+        font-size: 20px;
+    }
+    .benifits-col h3 {
+        font-size: 16px;
+    }
+    .benifits-icon {
+        margin: 3px 0px 0 0;
+    }
 
 }
 
 @media (max-width: 320px) {
-	.box-link {
-	    margin: -78px 0 0 54px;
+	.thoughts-100 .col-md-6:last-child .thoughts-col:after {
+		bottom: 76%;
 	}
-	.case-study-col .box-link {
-	    margin: -30px 0 0 54px;
-	}
+	.clients-thought {
+        background-size: 330%;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
